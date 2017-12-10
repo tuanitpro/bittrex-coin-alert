@@ -1,0 +1,12 @@
+D:\PROJECT\AppEchangeCoinAlert\bin\Debug\AppEchangeCoinAlert.exe.config
+D:\PROJECT\AppEchangeCoinAlert\bin\Debug\AppEchangeCoinAlert.exe
+D:\PROJECT\AppEchangeCoinAlert\bin\Debug\AppEchangeCoinAlert.pdb
+D:\PROJECT\AppEchangeCoinAlert\obj\Debug\AppEchangeCoinAlert.Form1.resources
+D:\PROJECT\AppEchangeCoinAlert\obj\Debug\AppEchangeCoinAlert.Properties.Resources.resources
+D:\PROJECT\AppEchangeCoinAlert\obj\Debug\AppEchangeCoinAlert.csproj.GenerateResource.Cache
+D:\PROJECT\AppEchangeCoinAlert\obj\Debug\AppEchangeCoinAlert.csproj.CoreCompileInputs.cache
+D:\PROJECT\AppEchangeCoinAlert\obj\Debug\AppEchangeCoinAlert.exe
+D:\PROJECT\AppEchangeCoinAlert\obj\Debug\AppEchangeCoinAlert.pdb
+D:\PROJECT\AppEchangeCoinAlert\bin\Debug\Newtonsoft.Json.dll
+D:\PROJECT\AppEchangeCoinAlert\bin\Debug\Newtonsoft.Json.xml
+D:\PROJECT\AppEchangeCoinAlert\obj\Debug\AppEchangeCoinAlert.csprojResolveAssemblyReference.cache
