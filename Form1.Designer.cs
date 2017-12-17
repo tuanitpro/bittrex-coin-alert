@@ -32,20 +32,20 @@
             this.btnOption = new System.Windows.Forms.Button();
             this.lblText = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.cbbListMarket = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtBelow = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtAbove = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtCurrentPrice = new System.Windows.Forms.TextBox();
-            this.btnSaveChange = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnSaveChange = new System.Windows.Forms.Button();
+            this.txtBelow = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtCurrentPrice = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtAbove = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.cbbAudio = new System.Windows.Forms.ComboBox();
+            this.cbbListMarket = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -98,113 +98,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cài đặt";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nhạc chuông:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 53);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Market:";
-            // 
-            // cbbListMarket
-            // 
-            this.cbbListMarket.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbbListMarket.FormattingEnabled = true;
-            this.cbbListMarket.Location = new System.Drawing.Point(97, 53);
-            this.cbbListMarket.Name = "cbbListMarket";
-            this.cbbListMarket.Size = new System.Drawing.Size(604, 21);
-            this.cbbListMarket.TabIndex = 4;
-            this.cbbListMarket.SelectedIndexChanged += new System.EventHandler(this.cbbListMarket_SelectedIndexChanged);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(333, 83);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Cao hơn:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(539, 83);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Thấp hơn:";
-            // 
-            // txtBelow
-            // 
-            this.txtBelow.Location = new System.Drawing.Point(601, 80);
-            this.txtBelow.Name = "txtBelow";
-            this.txtBelow.Size = new System.Drawing.Size(100, 20);
-            this.txtBelow.TabIndex = 8;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(224, 83);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Cao hơn:";
-            // 
-            // txtAbove
-            // 
-            this.txtAbove.Location = new System.Drawing.Point(389, 79);
-            this.txtAbove.Name = "txtAbove";
-            this.txtAbove.Size = new System.Drawing.Size(100, 20);
-            this.txtAbove.TabIndex = 7;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(94, 83);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Hiện tại:";
-            // 
-            // txtCurrentPrice
-            // 
-            this.txtCurrentPrice.Location = new System.Drawing.Point(174, 80);
-            this.txtCurrentPrice.Name = "txtCurrentPrice";
-            this.txtCurrentPrice.Size = new System.Drawing.Size(100, 20);
-            this.txtCurrentPrice.TabIndex = 6;
-            // 
-            // btnSaveChange
-            // 
-            this.btnSaveChange.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSaveChange.Location = new System.Drawing.Point(97, 109);
-            this.btnSaveChange.Name = "btnSaveChange";
-            this.btnSaveChange.Size = new System.Drawing.Size(75, 23);
-            this.btnSaveChange.TabIndex = 9;
-            this.btnSaveChange.Text = "Lưu";
-            this.btnSaveChange.UseVisualStyleBackColor = true;
-            this.btnSaveChange.Click += new System.EventHandler(this.btnSaveChange_Click);
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancel.Location = new System.Drawing.Point(178, 109);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 11;
-            this.btnCancel.Text = "Đóng";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
@@ -219,6 +112,85 @@
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView1_KeyDown);
             // 
+            // btnCancel
+            // 
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Location = new System.Drawing.Point(178, 109);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 11;
+            this.btnCancel.Text = "Đóng";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // btnSaveChange
+            // 
+            this.btnSaveChange.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSaveChange.Location = new System.Drawing.Point(97, 109);
+            this.btnSaveChange.Name = "btnSaveChange";
+            this.btnSaveChange.Size = new System.Drawing.Size(75, 23);
+            this.btnSaveChange.TabIndex = 9;
+            this.btnSaveChange.Text = "Lưu";
+            this.btnSaveChange.UseVisualStyleBackColor = true;
+            this.btnSaveChange.Click += new System.EventHandler(this.btnSaveChange_Click);
+            // 
+            // txtBelow
+            // 
+            this.txtBelow.Location = new System.Drawing.Point(601, 80);
+            this.txtBelow.Name = "txtBelow";
+            this.txtBelow.Size = new System.Drawing.Size(100, 20);
+            this.txtBelow.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(539, 83);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(56, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Thấp hơn:";
+            // 
+            // txtCurrentPrice
+            // 
+            this.txtCurrentPrice.Location = new System.Drawing.Point(174, 80);
+            this.txtCurrentPrice.Name = "txtCurrentPrice";
+            this.txtCurrentPrice.Size = new System.Drawing.Size(100, 20);
+            this.txtCurrentPrice.TabIndex = 6;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(94, 83);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Hiện tại:";
+            // 
+            // txtAbove
+            // 
+            this.txtAbove.Location = new System.Drawing.Point(389, 79);
+            this.txtAbove.Name = "txtAbove";
+            this.txtAbove.Size = new System.Drawing.Size(100, 20);
+            this.txtAbove.TabIndex = 7;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(224, 83);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 13);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Cao hơn:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(333, 83);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(50, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Cao hơn:";
+            // 
             // cbbAudio
             // 
             this.cbbAudio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -232,6 +204,34 @@
             this.cbbAudio.Size = new System.Drawing.Size(604, 21);
             this.cbbAudio.TabIndex = 4;
             // 
+            // cbbListMarket
+            // 
+            this.cbbListMarket.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbListMarket.FormattingEnabled = true;
+            this.cbbListMarket.Location = new System.Drawing.Point(97, 53);
+            this.cbbListMarket.Name = "cbbListMarket";
+            this.cbbListMarket.Size = new System.Drawing.Size(604, 21);
+            this.cbbListMarket.TabIndex = 4;
+            this.cbbListMarket.SelectedIndexChanged += new System.EventHandler(this.cbbListMarket_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(9, 53);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(43, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Market:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Nhạc chuông:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -241,13 +241,14 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblText);
             this.Controls.Add(this.btnOption);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Bittrex Alert [Để hạn chế mất tiền ngu...]";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

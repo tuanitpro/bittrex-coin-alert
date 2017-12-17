@@ -9,3 +9,15 @@ D:\PROJECT\AppEchangeCoinAlert\obj\Release\AppExchangeCoinAlert.csproj.GenerateR
 D:\PROJECT\AppEchangeCoinAlert\obj\Release\AppExchangeCoinAlert.csproj.CoreCompileInputs.cache
 D:\PROJECT\AppEchangeCoinAlert\obj\Release\AppExchangeCoinAlert.exe
 D:\PROJECT\AppEchangeCoinAlert\obj\Release\AppExchangeCoinAlert.pdb
+D:\PROJECT\bittrex-coin-alert\bin\Release\AppExchangeCoinAlert.exe.config
+D:\PROJECT\bittrex-coin-alert\bin\Release\AppExchangeCoinAlert.exe
+D:\PROJECT\bittrex-coin-alert\bin\Release\AppExchangeCoinAlert.pdb
+D:\PROJECT\bittrex-coin-alert\bin\Release\Newtonsoft.Json.dll
+D:\PROJECT\bittrex-coin-alert\bin\Release\Newtonsoft.Json.xml
+D:\PROJECT\bittrex-coin-alert\obj\Release\AppExchangeCoinAlert.Form1.resources
+D:\PROJECT\bittrex-coin-alert\obj\Release\AppExchangeCoinAlert.Properties.Resources.resources
+D:\PROJECT\bittrex-coin-alert\obj\Release\AppExchangeCoinAlert.csproj.GenerateResource.Cache
+D:\PROJECT\bittrex-coin-alert\obj\Release\AppExchangeCoinAlert.csproj.CoreCompileInputs.cache
+D:\PROJECT\bittrex-coin-alert\obj\Release\AppExchangeCoinAlert.exe
+D:\PROJECT\bittrex-coin-alert\obj\Release\AppExchangeCoinAlert.pdb
+D:\PROJECT\bittrex-coin-alert\obj\Release\AppExchangeCoinAlert.csprojResolveAssemblyReference.cache

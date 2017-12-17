@@ -12,11 +12,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace AppExchangeCoinAlert
 {
+    
     public partial class Form1 : Form
     {
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+        public const int HT_CAPTION = 0x2;
+
+        [DllImportAttribute("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+        [DllImportAttribute("user32.dll")]
+        public static extern bool ReleaseCapture();
+
         public const string Version = "v1.1";
         public const string BaseUrl = "https://bittrex.com/api/" + Version + "/";
         int CountItem = 0;
@@ -74,7 +84,7 @@ namespace AppExchangeCoinAlert
             GetSetting();
             GetData();
 
-            DisplayText();
+
             System.Timers.Timer t = new System.Timers.Timer(5000);
             t.AutoReset = true;
             t.Elapsed += new ElapsedEventHandler(OnTimedEvent);
@@ -204,9 +214,7 @@ namespace AppExchangeCoinAlert
                 }
                 CountItem++;
             }
-            cbbListMarket.DataSource = ListAllMarketSummaries;
-            cbbListMarket.ValueMember = "MarketName";
-            cbbListMarket.DisplayMember = "MarketName";
+          
         }
         async Task<ResponseWrapper<IEnumerable<MarketSummary>>> GetMarketSummaries()
         {
@@ -233,6 +241,10 @@ namespace AppExchangeCoinAlert
         {
             this.Height = 500;
             txtAbove.Text = txtBelow.Text = txtCurrentPrice.Text = "";
+
+            cbbListMarket.DataSource = ListAllMarketSummaries;
+            cbbListMarket.ValueMember = "MarketName";
+            cbbListMarket.DisplayMember = "MarketName";
         }
         private void btnSaveChange_Click(object sender, EventArgs e)
         {
@@ -310,6 +322,7 @@ namespace AppExchangeCoinAlert
         {
             this.Height = 85;
             txtAbove.Text = txtBelow.Text = txtCurrentPrice.Text = "";
+            btnSaveChange.Tag = null;
         }
 
         private void cbbListMarket_SelectedIndexChanged(object sender, EventArgs e)
@@ -369,6 +382,15 @@ namespace AppExchangeCoinAlert
                         cbbListMarket.SelectedValue = item.MarketName;
                     }
                 }
+            }
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                ReleaseCapture();
+                SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
     }
