@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Coinmarketcap.cs" />
     <Compile Include="Core\ConvertType.cs" />
     <Compile Include="Core\SettingHelper.cs" />
     <Compile Include="Core\Bittrex.cs" />

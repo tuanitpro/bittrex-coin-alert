@@ -1,9 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
+
 namespace AppExchangeCoinAlert.Core
 {
     public class AlarmItem
@@ -12,14 +10,17 @@ namespace AppExchangeCoinAlert.Core
         public decimal Above { get; set; }
         public decimal Below { get; set; }
     }
+
     public class Setting
     {
         public string FilePath { get; set; }
         public List<AlarmItem> AlarmItems { get; set; }
     }
+
     public class SettingHelper
     {
         public Setting Setting { get; set; }
+
         public SettingHelper()
         {
             Setting = new Setting
@@ -28,6 +29,7 @@ namespace AppExchangeCoinAlert.Core
                 AlarmItems = new List<AlarmItem>()
             };
         }
+
         public Setting GetSetting()
         {
             var filePath = $@"{AppDomain.CurrentDomain.BaseDirectory}data\data.ini";
@@ -37,13 +39,13 @@ namespace AppExchangeCoinAlert.Core
                 Setting = JsonConvert.DeserializeObject<Setting>(text);
             }
             return Setting;
-
         }
+
         public static void Save(Setting setting)
         {
             string text = JsonConvert.SerializeObject(setting);
             var filePath = $@"{AppDomain.CurrentDomain.BaseDirectory}data\data.ini";
-            System.IO.File.WriteAllText(filePath, text);             
+            System.IO.File.WriteAllText(filePath, text);
         }
     }
 }
